@@ -17,16 +17,3 @@ As the restrictions of Free Account on Twilio only 1 registered number can make 
 
 
 
-
-
-
-
-
-
-
-
-Flow of the Application:
-
-
-Vivek Kaushal		1001127684
-
