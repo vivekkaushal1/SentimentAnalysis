@@ -6,11 +6,11 @@ I have used Python NLTK Sentiment Analysis library to perform sentiment analysis
 The flaskapp is deployed on Ubuntu virtual machine on AWS on an EC2 instance.
 The Public DNS link of the EC2 instance serves as the server to the Twilio API to route different functions.
 Pre-requisites to run the app:
-> Python 2.7.11
-> Twilio Client
-> Flask Framework
-> Python NLTK
-> Vader Data from NLTK library
+Python 2.7.11
+Twilio Client
+Flask Framework
+Python NLTK
+Vader Data from NLTK library
 I installed these on the Ubuntu VM on AWS and deployed the flaskapp on it.
 To run the file a user just needs to run the flaskapp.py file included in the report.
 As the restrictions of Free Account on Twilio only 1 registered number can make and receive calls and messages from the Twilio client.
