@@ -6,8 +6,8 @@ from nltk.sentiment.util import *
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import time
 
-account_sid = "ACd4d2ed67e95352bec6e67d7575853ed5"
-auth_token = "34939163211d4a7e8ec1a6789de9aa67"
+account_sid = "TWILIO ACCOUNT SID"
+auth_token = "TWILIO AUTH TOKEN"
 
 app = Flask(__name__)
 
@@ -58,9 +58,9 @@ def someFunction():
                         trans.append(str(t.sid))
                 print "0"
                 #print (trans)
-                #work = trans[0]
+                work = trans[0]
                 #print work
-                tran = client.transcriptions.get('TRc24e962c979c03d1309cb92b6480ea25')
+                tran = client.transcriptions.get(str(work))
 ##                if client.status.get(trans[0])=='completed':
 ##                        tran = client.transcriptions.get(trans[0])
 ##                        print (tran)
