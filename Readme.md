@@ -2,7 +2,7 @@ Sentiment Analysis on Recorded Voice using Twilio API
 
 Description:
 The attached python code is a flask app to perform sentiment analysis on the user recorded voice by converting it to text using the Twilio Transcription API.
-The a[[ uses Python NLTK Sentiment Analysis library to perform sentiment analysis of the generated text.
+The app uses Python NLTK Sentiment Analysis library to perform sentiment analysis of the generated text.
 The flaskapp is deployed on Ubuntu virtual machine on AWS on an EC2 instance.
 The Public DNS link of the EC2 instance serves as the server to the Twilio API to route different functions.
 Pre-requisites to run the app:
